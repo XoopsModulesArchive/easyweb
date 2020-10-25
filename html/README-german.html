@@ -1,0 +1,48 @@
+<center>
+	<font size="4">EasyWeb</font>&nbsp;</center>
+<p>Was es ist...<br>
+------------------------</p>
+<p>Es ist ein recht einfaches Modul, mit dem man einfache Seiten erstelle kann. Man braucht IE, damit der wysiwygeditor funktioniert...</p>
+<p>Installation<br>
+------------------------</p>
+<p>1) Easyweb-Ordner in "modules" kopieren und home.php nach "root"...</p>
+<p>2) Chmod 755 oder 777&nbsp; &quot;cache&quot; und &quot;cache/images&quot;&nbsp; Ordner, und chmod 666 für alle Dateien.</p>
+<p>Wie's funktioniert...<br>
+------------------------</p>
+<p>Der beste Weg ist "learning by doing" oder "testing" ... :-)</p>
+<p>Sidebox<br>
+------------------------</p>
+<p>Es gibt zwei Seitenboxen, die sich ziemlich ähnlich sind, aber eine besitzt das Hauptmenü..</p>
+<p><font face="Courier New" color="#de940a" size="1"><i><b>//***************************************************************************//</b></i></font><font face="Courier New" size="1"><br>
+</font><font face="Courier New" color="#de940a" size="1"><i><b>// EasyWeb //</b></i></font><font face="Courier New" size="1"><br>
+</font><font face="Courier New" color="#de940a" size="1"><i><b>// Jan Inge Pettersen (Xend) http://www.xendtech.com //</b></i></font><font face="Courier New" size="1"><br>
+</font><font face="Courier New" color="#de940a" size="1"><i><b>// //</b></i></font><font face="Courier New" size="1"><br>
+</font><font face="Courier New" color="#de940a" size="1"><i><b>// //</b></i></font><font face="Courier New" size="1"><br>
+</font><font face="Courier New" color="#de940a" size="1"><i><b>// //</b></i></font><font face="Courier New" size="1"><br>
+</font><font face="Courier New" color="#de940a" size="1"><i><b>// //</b></i></font><font face="Courier New" size="1"><br>
+</font><font face="Courier New" color="#de940a" size="1"><i><b>// The Credit of XOOPS is: //</b></i></font><font face="Courier New" size="1"><br>
+</font><font face="Courier New" color="#de940a" size="1"><i><b>// ------------------------------------------------------------------------- //</b></i></font><font face="Courier New" size="1"><br>
+</font><font face="Courier New" color="#de940a" size="1"><i><b>// XOOPS - PHP Content Management System //</b></i></font><font face="Courier New" size="1"><br>
+</font><font face="Courier New" color="#de940a" size="1"><i><b>// &lt;https://www.xoops.org/&gt; //</b></i></font><font face="Courier New" size="1"><br>
+</font><font face="Courier New" color="#de940a" size="1"><i><b>// ------------------------------------------------------------------------- //</b></i></font><font face="Courier New" size="1"><br>
+</font><font face="Courier New" color="#de940a" size="1"><i><b>// Based on: //</b></i></font><font face="Courier New" size="1"><br>
+</font><font face="Courier New" color="#de940a" size="1"><i><b>// myPHPNUKE Web Portal System - http://myphpnuke.com/ //</b></i></font><font face="Courier New" size="1"><br>
+</font><font face="Courier New" color="#de940a" size="1"><i><b>// PHP-NUKE Web Portal System - http://phpnuke.org/ //</b></i></font><font face="Courier New" size="1"><br>
+</font><font face="Courier New" color="#de940a" size="1"><i><b>// Thatware - http://thatware.org/ //</b></i></font><font face="Courier New" size="1"><br>
+</font><font face="Courier New" color="#de940a" size="1"><i><b>// ------------------------------------------------------------------------- //</b></i></font><font face="Courier New" size="1"><br>
+</font><font face="Courier New" color="#de940a" size="1"><i><b>// This program is free software; you can redistribute it and/or modify //</b></i></font><font face="Courier New" size="1"><br>
+</font><font face="Courier New" color="#de940a" size="1"><i><b>// it under the terms of the GNU General Public License as published by //</b></i></font><font face="Courier New" size="1"><br>
+</font><font face="Courier New" color="#de940a" size="1"><i><b>// the Free Software Foundation; either version 2 of the License, or //</b></i></font><font face="Courier New" size="1"><br>
+</font><font face="Courier New" color="#de940a" size="1"><i><b>// (at your option) any later version. //</b></i></font><font face="Courier New" size="1"><br>
+</font><font face="Courier New" color="#de940a" size="1"><i><b>// //</b></i></font><font face="Courier New" size="1"><br>
+</font><font face="Courier New" color="#de940a" size="1"><i><b>// This program is distributed in the hope that it will be useful, //</b></i></font><font face="Courier New" size="1"><br>
+</font><font face="Courier New" color="#de940a" size="1"><i><b>// but WITHOUT ANY WARRANTY; without even the implied warranty of //</b></i></font><font face="Courier New" size="1"><br>
+</font><font face="Courier New" color="#de940a" size="1"><i><b>// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the //</b></i></font><font face="Courier New" size="1"><br>
+</font><font face="Courier New" color="#de940a" size="1"><i><b>// GNU General Public License for more details. //</b></i></font><font face="Courier New" size="1"><br>
+</font><font face="Courier New" color="#de940a" size="1"><i><b>// //</b></i></font><font face="Courier New" size="1"><br>
+</font><font face="Courier New" color="#de940a" size="1"><i><b>// You should have received a copy of the GNU General Public License //</b></i></font><font face="Courier New" size="1"><br>
+</font><font face="Courier New" color="#de940a" size="1"><i><b>// along with this program; if not, write to the Free Software //</b></i></font><font face="Courier New" size="1"><br>
+</font><font face="Courier New" color="#de940a" size="1"><i><b>// Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA //</b></i></font><font face="Courier New" size="1"><br>
+</font><font face="Courier New" color="#de940a" size="1"><i><b>// ------------------------------------------------------------------------- //</b></i></font></p>
+<p>&nbsp;</p>
+<p><a href="http://www.lumensoft.nl/</a>&nbsp;Lumensoft%20http://www.lumensoft.nl</B></FONT><FONT%20face=" size="1" new? courier><b>&nbsp;</b></a>  

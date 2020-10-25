@@ -1,0 +1,20 @@
+#padding{
+padding:3pt;
+border:0pt
+}
+#paddingb{
+padding:3pt;
+border:solid 1pt #000
+}
+#paddingbb{
+padding:3pt;
+border:solid 3pt #000
+}
+#paddingbd{
+padding:3pt;
+border:double 4pt #000
+}
+#paddingbs{
+padding:3pt;
+border:dotted 1pt #000
+}
